@@ -9,7 +9,6 @@ from time import gmtime, strftime
 import os.path
 import logging
 import scan
-import updateantivirus
 import unquote
 import argparse
 import wget, config

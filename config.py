@@ -17,9 +17,9 @@ acceptlang="en-us,en;q=0.5"
 
 # Referrer
 referrer="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source="
-
+filetypes="*.js, *.exe" #separated by comma ,  example .js,.html,.exe
 
 # Number of Threads
-# Worker threads = threadnum - 2
+# Worker threads = threadnum - 3
 threadnum=5
 
