@@ -58,7 +58,7 @@ def wget(urldict):
 			command1='cd '+directory_name+" && "+'wget -o /dev/stdout -t 2 --waitretry=1 --referer='+'"'+config.referrer+'"'+" "+'--user-agent='+'"'+useragent+'"'+'--header='+'"'+"Accept-Encoding: gzip"+'" '+url+ ' | tee -a '+debugfile
 		else:
 			command1='cd '+directory_name+" && "+'wget -o /dev/stdout -A '+'"'+config.filetypes+'" '+'-t 2 --waitretry=1 --referer='+'"'+config.referrer+'"'+" "+'--user-agent='+'"'+useragent+'"'+'--header='+'"'+"Accept-Encoding: gzip"+'" '+url+ ' | tee -a '+debugfile
-		print command1		
+		
 		os.system(command1.strip())
 
 
