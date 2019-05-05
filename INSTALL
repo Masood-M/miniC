@@ -1,0 +1,17 @@
+Required Libraries:
+
+Run the following command to install the required libraries:
+
+Debian:
+#sudo apt-get update
+
+#sudo apt-get install -y nano python make gcc autoconf libtool python-dev libpcre3-dev clamav
+#sudo freshclam
+
+
+
+RedHat, Fedora:
+#sudo yum install -y nano python make gcc automake libtool python-dev libpcre3-dev clamav
+#sudo freshclam
+
+
