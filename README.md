@@ -9,10 +9,6 @@ miniC is a low Interaction Client honeypot designed to detect malicious websites
 
 Easy Installation
 
- - run the following command to make install all the required libraries
-    
-	#sudo bash install.sh
-
  - run the minic honeypot using the command:
     
 	#sudo python miniC.py --file "name-of-the-file-containing-urls"
