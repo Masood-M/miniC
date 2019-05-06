@@ -1,7 +1,7 @@
 miniC
 ========================================
 
-miniC is a low Interaction Client honeypot designed to detect malicious websites through signature engine of ClamAV antivirus. miniC is designed to be fast and require very few resources to run.
+miniC is a low Interaction Client honeypot designed to detect malicious websites through signature engine of F-Prot antivirus. miniC is designed to be fast and require very few resources to run.
 
 
 
