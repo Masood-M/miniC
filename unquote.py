@@ -7,24 +7,13 @@ def unquoteDirectory(script_path):
 	script_path = os.path.dirname(os.path.abspath( __file__ ))
 	#currentdir = os.getcwd()
 	# Open the Clam-AV log
-	with open(script_path + "/scanlogs/Clam-report.log") as f:
+
+
+	with open(script_path + "/scanlogs/f-prot.log") as f:
+		start = False
 		for line in f:
-			if line.strip().endswith("FOUND"):
-				line = line.split(":")[0]
-
-				# Check if the the directory path(key) exists
-				# If key exists, append value "Clam-AV" 
-				# If it doesn't, create the key
-				if line in infected_files:
-					# If Clam-AV already exists for that key, go to the next iteration of loop
-					if infected_files[line].endswith("Clam-AV"):
-						continue
-					infected_files[line] = infected_files[line] + ", Clam-AV"
-				else:
-					infected_files[line] = " Clam-AV"
-
-
-
+			line = line.split("\t")[1].strip()				
+			infected_files[line] = " F-Prot"
 
 
 	infected_urls = dict()

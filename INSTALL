@@ -2,9 +2,15 @@ Required Libraries:
 
 Run the following command to install the required libraries:
 
-Debian:
-#sudo apt-get update
 
+#sudo wget http://files.f-prot.com/files/unix-trial/fp-Linux.x86.32-ws.tar.gz
+#sudo tar -xzvf fp-Linux.x86.32-ws.tar.gz
+#cd f-prot
+#sudo echo y | sudo ./install-f-prot.pl
+
+
+Debian:
+#sudo apt-get update 
 #sudo apt-get install -y nano python make gcc autoconf libtool python-dev libpcre3-dev clamav
 #sudo freshclam
 
