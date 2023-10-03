@@ -9,11 +9,11 @@ def unquoteDirectory(script_path):
 	# Open the Clam-AV log
 
 
-	with open(script_path + "/scanlogs/f-prot.log") as f:
-		start = False
-		for line in f:
-			line = line.split("\t")[1].strip()				
-			infected_files[line] = " F-Prot"
+#	with open(script_path + "/scanlogs/f-prot.log") as f:
+#		start = False
+#		for line in f:
+#			line = line.split("\t")[1].strip()				
+#			infected_files[line] = " F-Prot"
 
 
 	infected_urls = dict()
