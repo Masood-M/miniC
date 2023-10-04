@@ -3,7 +3,7 @@ rule myrule
         meta:
                 impact = 6
         strings:
-                $body = "rapid" nocase
+                $body = "escape" nocase
         condition:
                 $body
 }
