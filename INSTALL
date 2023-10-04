@@ -11,7 +11,7 @@ Debian:
 
 
 RedHat, Fedora:
-#sudo yum install -y nano python2 make gcc automake libtool python2-dev libpcre3-dev clamav
+#sudo yum install -y git nano python2 make gcc automake libtool python2-dev libpcre3-dev clamav
 #sudo freshclam
 
 
